@@ -7,3 +7,8 @@
 .css-1oj2twp-MuiPagination-root {
     margin-top: 30px;
 }
+
+button.MuiButtonBase-root.MuiPaginationItem-root.MuiPaginationItem-sizeMedium.MuiPaginationItem-text.MuiPaginationItem-circular.MuiPaginationItem-textPrimary.MuiPaginationItem-page.css-1to7aaw-MuiButtonBase-root-MuiPaginationItem-root {
+    color: white;
+    font-size: 20px;
+}

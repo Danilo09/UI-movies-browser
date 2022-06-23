@@ -1,8 +1,12 @@
+import LoginButton from "../Login/Login"
 import "./Header.css"
 
 const Header = () => {
     return (
-        <span onClick={() => window.scroll(0, 0)} className='header'>Header</span>
+        <div>
+            <span onClick={() => window.scroll(0, 0)} className='header'>Header<LoginButton></LoginButton></span>
+
+        </div>
     )
 }
 

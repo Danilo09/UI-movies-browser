@@ -2,3 +2,11 @@
     display: flex;
     margin: 15px 0;
 }
+
+.css-10botns-MuiInputBase-input-MuiFilledInput-input {
+    background-color: #FFF !important;
+}
+
+button.MuiButtonBase-root.MuiTab-root.MuiTab-textColorPrimary.css-18md96b-MuiButtonBase-root-MuiTab-root {
+    color: white;
+}

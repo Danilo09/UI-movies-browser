@@ -54,7 +54,7 @@ const Search = () => {
                     <TextField
                         style={{ flex: 1 }}
                         className="searchBox"
-                        label="Search"
+                        label="Search and click on button"
                         variant="filled"
                         onChange={(e) => setSearchText(e.target.value)}
                     />
