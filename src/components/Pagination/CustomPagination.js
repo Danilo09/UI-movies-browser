@@ -1,7 +1,7 @@
 
 import Pagination from "@mui/material/Pagination"
 import React from 'react'
-
+import "./Pagination.css";
 
 
 export const CustomPagination = ({ setPage, numOfPages = 10 }) => {

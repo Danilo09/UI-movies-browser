@@ -1,13 +1,12 @@
 import React, { useEffect, useState } from "react";
-// import { makeStyles } from '@material-ui/styles';
 import axios from "axios";
 import {
     img_500,
     unavailable,
 } from "../../config/config";
 import "./ContentModal.css";
-// import Carousel from "../Carousel/Carousel";
 import { Backdrop, Button, Fade, Modal } from "@mui/material";
+import Comments from "../Comments/Comments";
 
 // const style = {
 //     position: 'absolute',
@@ -120,6 +119,7 @@ export default function TransitionsModal({ children, media_type, id }) {
                                     >
                                         Watch the Trailer
                                     </Button>
+                                    <Comments></Comments>
                                 </div>
                             </div>
                         </div>
