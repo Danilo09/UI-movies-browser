@@ -8,18 +8,6 @@ import "./ContentModal.css";
 import { Backdrop, Button, Fade, Modal } from "@mui/material";
 import Comments from "../Comments/Comments";
 
-// const style = {
-//     position: 'absolute',
-//     top: '50%',
-//     left: '50%',
-//     transform: 'translate(-50%, -50%)',
-//     width: 400,
-//     bgcolor: 'background.paper',
-//     border: '2px solid #000',
-//     boxShadow: 24,
-//     p: 4,
-// };
-
 export default function TransitionsModal({ children, media_type, id }) {
     // const classes = useStyles();
     const [open, setOpen] = useState(false);
